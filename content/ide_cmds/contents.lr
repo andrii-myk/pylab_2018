@@ -1,0 +1,88 @@
+title:IDE commands.
+---
+body:
+
+There is a list of the most popular PyCharm shortcuts.
+
+<h2>Editing</h2>
+
+<b>Ctrl + Space</b> Basic code completion (the name of any class, method or variable)
+
+<b>Ctrl + Alt + Space</b> Class name completion (the name of any project class independently of current imports)
+
+<bCtrl + Shift + Enter</b> Complete statement
+
+<b>Ctrl + P</b> Parameter info (within method call arguments)
+
+<b>Ctrl + Q</b> Quick documentation lookup
+
+<b>Shift + F1</b> External Doc
+
+<b>Ctrl + mouse</b> over code Brief Info
+
+<b>Ctrl + F1</b> Show descriptions of error or warning at caret
+
+<b>Alt + Insert</b> Generate code...
+
+<b>Ctrl + O</b> Override methods
+
+<b>Ctrl + Alt + T</b> Surround with...
+
+<b>Ctrl + /</b> Comment/uncomment with line comment
+
+<b>Ctrl + Shift + /</b> Comment/uncomment with block comment
+
+<b>Ctrl + W</b> Select successively increasing code blocks
+
+<b>Ctrl + Shift + W</b> Decrease current selection to previous state
+
+<b>Ctrl + Shift + ]</b> Select till code block end
+
+<b>Ctrl + Shift + [</b> Select till code block start
+
+<b>Alt + Enter</b> Show intention actions and quick-fixes
+
+<b>Ctrl + Alt + L</b> Reformat code
+
+<b>Ctrl + Alt + O</b> Optimize imports
+
+<b>Ctrl + Alt + I</b> Auto-indent line(s)
+
+<b>Tab</b> Indent selected lines
+
+<b>Shift + Tab</b> Unindent selected lines
+
+<b>Ctrl + X , Shift + Delete</b> Cut current line or selected block to clipboard
+
+<b>Ctrl + C ,Ctrl + Insert</b> Copy current line or selected block to clipboard
+
+<b>Ctrl + V , Shift + Insert</b> Paste from clipboard
+
+<b>Ctrl + Shift + V</b> Paste from recent buffers...
+
+<b>Ctrl + D</b> Duplicate current line or selected block
+
+<b>Ctrl + Y</b> Delete line at caret
+
+<b>Ctrl + Shift + J</b> Smart line join
+
+<b>Ctrl + Enter</b> Smart line split
+
+<b>Shift + Enter</b> Start new line
+
+<b>Ctrl + Shift + U</b> Toggle case for word at caret or selected block
+
+<b>Ctrl + Delete</b> Delete to word end
+
+<b>Ctrl + Backspace</b> Delete to word start
+
+<b>Ctrl + NumPad+</b> Expand code block
+
+<b>Ctrl + NumPad-</b> Collapse code block
+
+<b>Ctrl + Shift + NumPad+</b> Expand all
+
+<b>Ctrl + Shift + NumPad-</b> Collapse all
+
+<b>Ctrl + F4</b> Close active editor tab
+

@@ -1,0 +1,6 @@
+[project]
+name = pylab_2018
+
+[servers.ghpages]
+target = ghpages+https://github.com/andrii-myk/pylab_2018
+

@@ -1,0 +1,85 @@
+title: GIT commands
+---
+body:
+
+This is a list of the most popular GIT Commands.
+
+<b>1) git config</b>
+
+<b>Utility</b> : To set your user name and email in the main configuration file.
+
+<b>How to : To check your name and email type in git config  -- global user.name and git config  -- global user.email. And to set your new email or name git config  -- global user.name = “Dhruv Nenwani” and git config  -- global user.email = “nendhruv@gmail.com”</b>
+
+<b>2) git init</b>
+
+<b>Utility</b> : To initialise a git repository for a new or existing project.
+
+<b>How to : git init in the root of your project directory.</b>
+
+<b>3) git clone</b>
+
+<b>Utility</b> : To copy a git repository from remote source, also sets the remote to original source so that you can pull again.
+
+<b>How to : git clone <:clone git url:></b>
+
+<b>4) git status</b>
+
+<b>Utility</b> : To check the status of files you’ve changed in your working directory, i.e, what all has changed since your last commit.
+
+<b>How to : git status in your working directory. lists out all the files that have been changed.</b>
+
+<b>5) git add</b>
+
+<b>Utility</b> : adds changes to stage/index in your working directory.
+
+<b>How to : git add .</b>
+
+<b>6) git commit</b>
+
+<b>Utility</b> : commits your changes and sets it to new commit object for your remote.
+
+<b>How to : git commit -m”sweet little commit message”</b>
+
+<b>7) git push/git pull</b>
+
+<b>Utility</b> : Push or Pull your changes to remote. If you have added and committed your changes and you want to push them. Or if your remote has updated and you want those latest changes.
+
+<b>How to : git pull <:remote:> <:branch:> and git push <:remote:> <:branch:></b>
+
+<b>8) git branch</b>
+
+<b>Utility</b> : Lists out all the branches. 
+
+<b>How to : git branch or git branch -a to list all the remote branches as well.</b>
+
+<b>9) git checkout</b>
+
+<b>Utility</b> : Switch to different branches
+
+<b>How to : git checkout <:branch:> or **_git checkout -b <:branch:> if you want to create and switch to a new branch.</b>
+
+<b>10) git stash</b>
+
+<b>Utility</b> : Save changes that you don’t want to commit immediately.
+
+<b>How to : git stash in your working directory. git stash apply if you want to bring your saved changes back.</b>
+
+<b>11) git merge</b>
+
+<b>Utility</b> : Merge two branches you were working on.
+
+<b>How to : Switch to branch you want to merge everything in. git merge <:branch_you_want_to_merge:></b>
+
+<b>12) git reset</b>
+
+<b>Utility</b> : You know when you commit changes that are not complete, this sets your index to the latest commit that you want to work on with.
+
+How to : git reset <:mode:> <:COMMIT:></b>
+
+<b>13) git remote</b>
+
+<b>Utility</b> : To check what remote/source you have or add a new remote.
+
+<b>How to : git remote to check and list. And git remote add <:remote_url:></b>
+
+These are the commands that I feel are essential and get things done, at least for me. Comment here if you think I’ve missed something important or if something can be done differently.

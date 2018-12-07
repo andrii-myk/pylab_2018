@@ -1,0 +1,57 @@
+body {
+    font-family: 'Verdana', sans-serif;
+    margin: 50px 25px;
+}
+
+a {
+    color: #f1fbfe;
+}
+
+a:hover {
+    color: #33bbdf;
+}
+
+header, footer {
+    position: relative;
+    left: 0;
+    right: 0;
+}
+
+header, footer, div.page {
+    max-width: 1024px;
+    min-width: 360px;
+    margin: 0 auto;
+    background: #008B8B;
+    padding: 20px 30px;
+}
+
+header h1 {
+    color: #ffffff;
+    margin: 0;
+    font-weight: normal;
+    font-size: 42px;
+}
+
+header nav {
+    float: right!important;
+}
+
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 8px 0 0;
+    padding: 0;
+}
+
+div.page {
+    background: #DCDCDC;
+    align-content: center;
+    text-align: justify;
+    padding: 20px 30px;
+}
