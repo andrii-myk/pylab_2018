@@ -1,6 +1,6 @@
 [project]
 name = pylab_2018
 
-[servers.ghpages]
-target = ghpages+https://andrii-myk/pylab_2018
+[servers.ghpages-https]
+target = ghpages+https://pylab_2018/pylab_2018.github.io?cname=andrii-myk
 
